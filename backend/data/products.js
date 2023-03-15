@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Unicorn',
     image: '/images/SoftToy.jpg',
     description:'Unicorn Soft toys for kids',
@@ -12,7 +11,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
     name: 'Chess',
     image: '/images/chess.png',
     description:'Wooden Chess Board Game',
@@ -24,7 +22,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Cannon Camera',
     image: '/images/camera.jpg',
     description:'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
@@ -36,7 +33,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
     name: 'Light',
     image: '/images/led_light.png',
     description:'Decorative lightings for rooms',
@@ -48,7 +44,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '5',
     name: 'SunGlasses',
     image: '/images/sunglasses.png',
     description: 'Sun Glasses Unisex',
@@ -60,7 +55,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: 'Watch',
     image: '/images/watch.png',
     description:'Titan Watch for women',
@@ -72,7 +66,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '7',
     name: 'Monopoly',
     image: '/images/monopoly.jpg',
     description:'Board game for children',
@@ -84,7 +77,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '8',
     name: 'Teddy',
     image: '/images/teddy.png',
     description:'smooth teddy toy',
