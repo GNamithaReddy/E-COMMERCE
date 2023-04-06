@@ -6,7 +6,7 @@ import Product from '../models/productModel.js'
 // @route GET / api/products
 // @access Public
 const getProducts = asyncHandler(async(req,res) => {
- const products = await Product.find({})
+ const products = await Product.find({},{ name: 1, image: 1, description: 1, brand: 1, category: 1, price: 1, countInStock: 1, rating: 1, numReviews: 1 })
 
  res.json(products)
 })
